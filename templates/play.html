@@ -40,7 +40,7 @@
     <body>
         <div class="container" id="container">
             <video id="vid" autoplay controls height="100%" width="100%">
-                <source id="vidsrc" src="static/videos1.mp4"
+                <source id="vidsrc" src="static/video1.mp4"
                         type="video/mp4">
                 <!-- <track label="English" kind="subtitles" srclang="en" src="static/" default> -->
             </video>
@@ -70,7 +70,7 @@
                 }
                 count++;
                 if (count <= 1) {
-                    mp4Vid.setAttribute('src', "static/videos"+count+".mp4");
+                    mp4Vid.setAttribute('src', "static/video"+count+".mp4");
                     player.load();
                     player.play();
 
